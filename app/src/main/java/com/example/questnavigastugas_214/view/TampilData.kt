@@ -17,3 +17,27 @@ import androidx.navigation.NavController
 import androidx.compose.foundation.shape.RoundedCornerShape
 import com.example.questnavigastugas_214.Navigasi
 import com.example.questnavigastugas_214.R
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TampilData(
+    nama: String,
+    jenisKelamin: String,
+    status: String,
+    alamat: String,
+    onBackBtnClick: () -> Unit,
+    navController: NavController? = null
+) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(text = "Tampil Data", color = Color.White) },
+                colors = TopAppBarDefaults.mediumTopAppBarColors(
+                    containerColor = Color(0xFF7E57C2)
+                )
+            )
+        }
+    ) { isiRuang ->
+
+    }
+}
