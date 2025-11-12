@@ -67,5 +67,21 @@ fun FormulirPendaftaran(
                 color = Color.White
             )
         }
+        Spacer(modifier = Modifier.height(25.dp))
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 24.dp),
+            shape = RoundedCornerShape(16.dp),
+            elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)
+        ) {
+            Column(
+                modifier = Modifier.padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(15.dp)
+            ) {
+                // isian form di commit berikutnya
+            }
+        }
     }
 }
