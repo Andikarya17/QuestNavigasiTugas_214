@@ -9,3 +9,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.questnavigastugas_214.view.*
+
+enum class Navigasi {
+    Welcome,
+    Detail,
+    Formulir
+}
