@@ -1,4 +1,4 @@
-package com.example.questnavigastugas_214
+package com.example.questnavigasitugas_214
 
 import org.junit.Test
 

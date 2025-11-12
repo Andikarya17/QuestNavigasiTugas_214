@@ -1,6 +1,5 @@
-package com.example.questnavigastugas_214.ui.theme
+package com.example.questnavigasitugas_214.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

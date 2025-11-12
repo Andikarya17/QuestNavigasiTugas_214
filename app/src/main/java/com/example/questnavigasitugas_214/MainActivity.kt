@@ -1,11 +1,10 @@
-package com.example.questnavigastugas_214
+package com.example.questnavigasitugas_214
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-
-import com.example.questnavigastugas_214.ui.theme.QuestNavigasTugas_214Theme
+import com.example.questnavigasitugas_214.ui.theme.QuestNavigasTugas_214Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,8 +13,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestNavigasTugas_214Theme {
                 DataApp()
-
-                }
             }
         }
     }
+}

@@ -1,4 +1,4 @@
-package com.example.questnavigastugas_214.view
+package com.example.questnavigasitugas_214.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -14,7 +14,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.questnavigastugas_214.R
+import com.example.questnavigasitugas_214.R
+
 
 @Composable
 fun WelcomeScreen(onSubmitClick: () -> Unit) {

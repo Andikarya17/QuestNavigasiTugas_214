@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.questnavigastugas_214"
-    compileSdk = 34  // ✅ perbaikan
+    namespace = "com.example.questnavigasitugas_214"
+    compileSdk = 36  // ✅ perbaikan
 
     defaultConfig {
-        applicationId = "com.example.questnavigastugas_214"
+        applicationId = "com.example.questnavigasitugas_214"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

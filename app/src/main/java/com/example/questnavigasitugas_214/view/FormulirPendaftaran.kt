@@ -1,4 +1,4 @@
-package com.example.questnavigastugas_214.view
+package com.example.questnavigasitugas_214.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

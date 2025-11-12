@@ -1,4 +1,4 @@
-package com.example.questnavigastugas_214.ui.theme
+package com.example.questnavigasitugas_214.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
