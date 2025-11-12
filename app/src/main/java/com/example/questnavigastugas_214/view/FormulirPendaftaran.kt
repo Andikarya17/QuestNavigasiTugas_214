@@ -44,4 +44,13 @@ fun FormulirPendaftaran(
 
     val listGender = listOf("Laki-laki", "Perempuan")
     val listStatus = listOf("Janda", "Lajang", "Duda")
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color(0xFFD1C4E9))
+            .verticalScroll(rememberScrollState()),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+    }
 }
