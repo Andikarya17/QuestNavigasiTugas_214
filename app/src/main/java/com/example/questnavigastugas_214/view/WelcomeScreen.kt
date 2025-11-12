@@ -34,6 +34,12 @@ fun WelcomeScreen(onSubmitClick: () -> Unit) {
 
         Spacer(modifier = Modifier.height(24.dp))
 
+        Image(
+            painter = painterResource(id = R.drawable.logo_f1),
+            contentDescription = "Logo",
+            modifier = Modifier.size(150.dp)
+        )
+
         Text(
             text = "Andika Arya Putra",
             fontSize = 20.sp,
@@ -46,5 +52,19 @@ fun WelcomeScreen(onSubmitClick: () -> Unit) {
             fontSize = 16.sp,
             color = Color.Gray
         )
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        Button(
+            onClick = onSubmitClick,
+            shape = RoundedCornerShape(50.dp),
+            modifier = Modifier
+                .padding(horizontal = 64.dp)
+                .height(50.dp)
+                .fillMaxWidth(),
+            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF512DA8))
+        ) {
+            Text(text = "Submit", color = Color.White, fontSize = 18.sp, textAlign = TextAlign.Center)
+        }
     }
 }
