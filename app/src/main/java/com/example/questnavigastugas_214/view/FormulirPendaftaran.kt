@@ -88,6 +88,27 @@ fun FormulirPendaftaran(
                     modifier = Modifier.fillMaxWidth(),
                     placeholder = { Text("Isian nama lengkap") }
                 )
+                Text("JENIS KELAMIN", fontWeight = FontWeight.SemiBold)
+                listGender.forEach { item ->
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(
+                            selected = gender == item,
+                            onClick = { gender = item }
+                        )
+                        Text(text = item)
+                    }
+                }
+
+                Text("STATUS PERKAWINAN", fontWeight = FontWeight.SemiBold)
+                listStatus.forEach { item ->
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(
+                            selected = status == item,
+                            onClick = { status = item }
+                        )
+                        Text(text = item)
+                    }
+                }
             }
         }
     }
