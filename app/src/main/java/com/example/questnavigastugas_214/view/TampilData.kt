@@ -72,5 +72,7 @@ fun TampilData(
                 }
                 HorizontalDivider(thickness = 1.dp, color = Color(0xFF7E57C2))
             }
+            Spacer(modifier = Modifier.height(24.dp))
+    }
     }
 }
