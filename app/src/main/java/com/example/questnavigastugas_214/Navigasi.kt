@@ -15,3 +15,22 @@ enum class Navigasi {
     Detail,
     Formulir
 }
+@Composable
+fun DataApp(
+    navController: NavHostController = rememberNavController()
+) {
+    var nama by remember { mutableStateOf("") }
+    var jenisKelamin by remember { mutableStateOf("") }
+    var alamat by remember { mutableStateOf("") }
+    var status by remember { mutableStateOf("") }
+
+    Scaffold { isiRuang ->
+        NavHost(
+            navController = navController,
+            startDestination = Navigasi.Welcome.name,
+            modifier = Modifier.padding(isiRuang)
+        ) {
+
+        }
+    }
+}
