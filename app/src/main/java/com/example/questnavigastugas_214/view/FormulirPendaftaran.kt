@@ -37,4 +37,11 @@ fun FormulirPendaftaran(
     modifier: Modifier = Modifier,
     onSubmit: (String, String, String, String) -> Unit
 ) {
+    var nama by remember { mutableStateOf("") }
+    var alamat by remember { mutableStateOf("") }
+    var gender by remember { mutableStateOf("") }
+    var status by remember { mutableStateOf("") }
+
+    val listGender = listOf("Laki-laki", "Perempuan")
+    val listStatus = listOf("Janda", "Lajang", "Duda")
 }
